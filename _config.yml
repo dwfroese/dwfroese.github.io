@@ -1,0 +1,10 @@
+title: "Darwin Froese ~ Film Portfolio"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"   # try “air” or “contrast” for a different vibe
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Darwin Froese"
+  avatar: "/assets/images/headshot.jpg"
+  bio: "Filmmaker | Storyteller | Visual Artist"
