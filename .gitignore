@@ -1,0 +1,10 @@
+# Ignore Jekyll build output
+_site/
+
+# Ignore Sass cache
+.sass-cache/
+
+# Ignore other temporary files
+*.log
+*.tmp
+
