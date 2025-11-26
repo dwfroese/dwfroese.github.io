@@ -1,15 +1,18 @@
-title: "Darwin Froese ~ Film Portfolio"
+title: ""
+tagline: ""
+masthead_title: false
+logo: ""   # ensures no logo/title shows
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"   
 plugins:
   - jekyll-include-cache
 
 author:
-  name: "Darwin Froese"
+  name: ""
   avatar: "/assets/images/headshot.jpg"
   bio: "Filmmaker | Storyteller | Visual Artist"
 
 sass:
   style: compressed
-include:
-  - assets/css/custom.css
+
+navigation: main

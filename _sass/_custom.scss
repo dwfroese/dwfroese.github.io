@@ -1,0 +1,69 @@
+/* Accent link color for general site links */
+a {
+  color: #4da6ff; /* soft blue */
+  transition: color 0.3s ease; /* smooth color transition */
+}
+
+a:hover {
+  color: #ff9900; /* orange on hover */
+}
+
+/* Accent headings */
+.page__title, .site-title {
+  color: #4da6ff;
+}
+
+/* Thin cinematic blue line across full masthead */
+.masthead {
+  background-color: transparent !important;
+  border-bottom: 2px solid #3498db !important;
+}
+
+/* Remove duplicate border from inner wrap */
+.masthead__inner-wrap {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+/* Center nav bar links */
+.masthead__menu {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* Nav links styled in cinematic blue */
+.masthead__menu-item a {
+  color: #4da6ff !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 15px;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  position: relative;
+  display: inline-block; /* isolate each link */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect: orange text + scale transform */
+.masthead__menu-item a:hover {
+  color: #ff9900 !important;   /* orange text */
+  transform: scale(1.1);       /* enlarge hovered link only */
+  text-decoration: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* Nuke all pseudo-element underline bars from greedy-nav links */
+.greedy-nav a::before,
+.greedy-nav a::after,
+.masthead__menu-item a::before,
+.masthead__menu-item a::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
