@@ -67,3 +67,55 @@ a:hover {
   border: none !important;
   box-shadow: none !important;
 }
+
+/* Mobile-friendly starter fixes */
+
+/* Ensure images scale properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container adjustments for small screens */
+.container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+/* Responsive navigation tweaks */
+@media (max-width: 992px) {
+  .masthead__menu {
+    flex-wrap: wrap; /* allow links to wrap */
+    justify-content: center;
+  }
+
+  .masthead__menu-item a {
+    padding: 0 10px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead__menu {
+    flex-direction: column; /* stack links vertically */
+    align-items: center;
+  }
+
+  .masthead__menu-item a {
+    display: block;
+    padding: 8px 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.9rem; /* slightly smaller base text */
+  }
+
+  .page__title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
