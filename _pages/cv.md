@@ -10,7 +10,7 @@ permalink: /cv/
 
 
 
-\[Download CV (PDF)](/assets/docs/cv.pdf)
+\[Download CV (PDF)](/assets/docs/Darwin_Froese_CV.pdf)
 
 
 
