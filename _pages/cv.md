@@ -4,7 +4,7 @@ title: "Darwin Froese - CV"
 permalink: /cv/
 ---
 
-{: .btn .btn--info }
+{: .btn .btn--cv }
 [View My CV (PDF)](/assets/docs/Darwin_Froese_CV.pdf)
 
 
