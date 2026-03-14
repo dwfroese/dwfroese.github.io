@@ -119,3 +119,19 @@ img {
     text-align: center;
   }
 }
+
+/* CV Button — matches site accent colors and overrides dark skin */
+.btn--cv {
+  background-color: #4da6ff !important;   /* soft blue */
+  color: #000 !important;                 /* readable black text */
+  border: none !important;
+  padding: 0.6em 1.2em;
+  font-weight: 600;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn--cv:hover {
+  background-color: #66ccff !important;   /* hover blue */
+  color: #000 !important;
+}
