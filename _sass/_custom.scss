@@ -139,11 +139,15 @@ img {
   font-weight: 600;
   border-radius: 4px;
   display: inline-block;
+  text-decoration: none !important;
+ 
+  transition: background-color 0.3s ease, transform 0.2s ease;  
 }
 
 .btn--cv:hover {
   background-color: #66ccff !important; /* lighter blue */
   color: #ffffff !important;
+  transform: translateY(-2px);
 }
 
 
