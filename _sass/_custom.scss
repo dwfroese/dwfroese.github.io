@@ -10,6 +10,14 @@ a:hover {
   color: #ff9900; /* orange on hover */
 }
 
+/* Prevent global link colors from affecting the CV button */
+a.btn--cv,
+a.btn--cv:hover,
+a.btn--cv:visited,
+a.btn--cv:active {
+  color: #ffffff !important; /* force white text */
+}
+
 /* Accent headings */
 .page__title,
 .site-title {
@@ -138,20 +146,5 @@ img {
   color: #ffffff !important;
 }
 
-/* Absolute override for dark-skin button text color */
-.page__content a.btn--cv,
-.page__content a.btn--cv:visited,
-.page__content a.btn--cv:active,
-.page__content a.btn--cv:hover {
-  color: #ffffff !important;
-}
-
-/* Final override for CV button text color */
-a.btn.btn--cv,
-a.btn.btn--cv:visited,
-a.btn.btn--cv:active,
-a.btn.btn--cv:hover {
-  color: #ffffff !important;
-}
 
 
