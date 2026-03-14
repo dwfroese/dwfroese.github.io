@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Download My CV"
+title: "Darwin Froese - CV"
 permalink: /cv/
 ---
 
-{: .btn .btn--primary }
-[Download CV (PDF)](/assets/docs/Darwin_Froese_CV.pdf)
+{: .btn .btn--info }
+[View My CV (PDF)](/assets/docs/Darwin_Froese_CV.pdf)
 
 
 
