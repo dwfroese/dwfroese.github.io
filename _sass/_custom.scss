@@ -135,3 +135,8 @@ img {
   background-color: #66ccff !important;   /* hover blue */
   color: #000 !important;
 }
+
+/* Force button text color on page load */
+.btn.btn--cv {
+  color: #ffffff !important;   /* pure white text */
+}
