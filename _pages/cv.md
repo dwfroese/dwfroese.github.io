@@ -4,8 +4,5 @@ title: "Darwin Froese - CV"
 permalink: /cv/
 ---
 
-{: .btn--cv }
-[View My CV (PDF)](/assets/docs/Darwin_Froese_CV.pdf)
-
-
+<a href="/assets/docs/Darwin_Froese_CV.pdf" class="btn--cv">View My CV (PDF)</a>
 
