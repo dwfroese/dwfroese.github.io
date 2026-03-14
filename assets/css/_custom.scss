@@ -28,3 +28,15 @@ a:hover {
   color: #000 !important;
 }
 
+/* Force the CV button to override the dark theme button styles */
+.btn.btn--cv {
+  background-color: #4da6ff !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.btn.btn--cv:hover {
+  background-color: #66ccff !important;
+  color: #000 !important;
+}
+
