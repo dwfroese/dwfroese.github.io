@@ -12,18 +12,19 @@ a:hover {
   color: #4da6ff;
 }
 
-/* CV Button — matches site accent colors */
+/* CV Button — matches site accent colors and overrides dark skin */
 .btn--cv {
-  background-color: #4da6ff;   /* your soft blue */
-  color: #000 !important;      /* black text for contrast */
-  border: none;
+  background-color: #4da6ff !important;   /* your soft blue */
+  color: #000 !important;                 /* readable black text */
+  border: none !important;
   padding: 0.6em 1.2em;
   font-weight: 600;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .btn--cv:hover {
-  background-color: #66ccff;   /* your hover blue */
+  background-color: #66ccff !important;   /* your hover blue */
   color: #000 !important;
 }
 
