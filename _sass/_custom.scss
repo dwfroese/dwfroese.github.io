@@ -140,3 +140,11 @@ img {
 .btn.btn--cv {
   color: #ffffff !important;   /* pure white text */
 }
+
+/* Force CV button text color to white in all link states */
+a.btn--cv,
+a.btn--cv:visited,
+a.btn--cv:active {
+  color: #ffffff !important;   /* pure white text */
+}
+
