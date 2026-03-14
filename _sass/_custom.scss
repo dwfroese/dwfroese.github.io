@@ -1,7 +1,9 @@
-/* Accent link color for general site links */
+/* ---------------------------------------------
+   Global link styling
+--------------------------------------------- */
 a {
   color: #4da6ff; /* soft blue */
-  transition: color 0.3s ease; /* smooth color transition */
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -9,17 +11,19 @@ a:hover {
 }
 
 /* Accent headings */
-.page__title, .site-title {
+.page__title,
+.site-title {
   color: #4da6ff;
 }
 
-/* Thin cinematic blue line across full masthead */
+/* ---------------------------------------------
+   Masthead styling
+--------------------------------------------- */
 .masthead {
   background-color: transparent !important;
   border-bottom: 2px solid #3498db !important;
 }
 
-/* Remove duplicate border from inner wrap */
 .masthead__inner-wrap {
   background-color: transparent !important;
   border-bottom: none !important;
@@ -32,7 +36,7 @@ a:hover {
   width: 100% !important;
 }
 
-/* Nav links styled in cinematic blue */
+/* Nav link styling */
 .masthead__menu-item a {
   color: #4da6ff !important;
   font-weight: 600;
@@ -43,20 +47,19 @@ a:hover {
   box-shadow: none !important;
   background-image: none !important;
   position: relative;
-  display: inline-block; /* isolate each link */
+  display: inline-block;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect: orange text + scale transform */
 .masthead__menu-item a:hover {
-  color: #ff9900 !important;   /* orange text */
-  transform: scale(1.1);       /* enlarge hovered link only */
+  color: #ff9900 !important;
+  transform: scale(1.1);
   text-decoration: none !important;
   box-shadow: none !important;
   background-image: none !important;
 }
 
-/* Nuke all pseudo-element underline bars from greedy-nav links */
+/* Remove greedy-nav underline bars */
 .greedy-nav a::before,
 .greedy-nav a::after,
 .masthead__menu-item a::before,
@@ -68,24 +71,22 @@ a:hover {
   box-shadow: none !important;
 }
 
-/* Mobile-friendly starter fixes */
-
-/* Ensure images scale properly */
+/* ---------------------------------------------
+   Responsive layout tweaks
+--------------------------------------------- */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Container adjustments for small screens */
 .container {
   max-width: 100%;
   padding: 0 1rem;
 }
 
-/* Responsive navigation tweaks */
 @media (max-width: 992px) {
   .masthead__menu {
-    flex-wrap: wrap; /* allow links to wrap */
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -97,7 +98,7 @@ img {
 
 @media (max-width: 768px) {
   .masthead__menu {
-    flex-direction: column; /* stack links vertically */
+    flex-direction: column;
     align-items: center;
   }
 
@@ -108,10 +109,9 @@ img {
   }
 }
 
-/* Extra small phones */
 @media (max-width: 576px) {
   body {
-    font-size: 0.9rem; /* slightly smaller base text */
+    font-size: 0.9rem;
   }
 
   .page__title {
@@ -120,10 +120,12 @@ img {
   }
 }
 
-/* CV Button — matches site accent colors and overrides dark skin */
+/* ---------------------------------------------
+   CV Button styling
+--------------------------------------------- */
 .btn--cv {
-  background-color: #4da6ff !important;   /* soft blue */
-  color: #000 !important;                 /* readable black text */
+  background-color: #4da6ff !important; /* soft blue */
+  color: #ffffff !important;            /* white text */
   border: none !important;
   padding: 0.6em 1.2em;
   font-weight: 600;
@@ -132,19 +134,15 @@ img {
 }
 
 .btn--cv:hover {
-  background-color: #66ccff !important;   /* hover blue */
-  color: #000 !important;
+  background-color: #66ccff !important; /* lighter blue */
+  color: #ffffff !important;
 }
 
-/* Force button text color on page load */
-.btn.btn--cv {
-  color: #ffffff !important;   /* pure white text */
-}
-
-/* Force CV button text color to white in all link states */
-a.btn--cv,
-a.btn--cv:visited,
-a.btn--cv:active {
-  color: #ffffff !important;   /* pure white text */
+/* Absolute override for dark-skin button text color */
+.page__content a.btn--cv,
+.page__content a.btn--cv:visited,
+.page__content a.btn--cv:active,
+.page__content a.btn--cv:hover {
+  color: #ffffff !important;
 }
 
