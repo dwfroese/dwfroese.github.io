@@ -12,7 +12,7 @@ permalink: /contact/
 
 Email: dwfroese@gmail.com
 
-YouTube: \www.youtube.com/@lordfusiondar1003
+YouTube: www.youtube.com/@lordfusiondar1003
 
 
 
